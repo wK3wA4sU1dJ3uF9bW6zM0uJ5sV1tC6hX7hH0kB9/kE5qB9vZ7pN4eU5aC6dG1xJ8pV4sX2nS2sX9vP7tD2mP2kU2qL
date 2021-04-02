@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Source+Code+Pro&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="../style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> body{background-image: inherit; overflow: hidden;}</style>
+    <script src="../script.js"></script>
+</head>
+<body>
+    <div class="headlogos">
+        <img class="headlogo" src="../img/logo.png" alt="Logo">
+        <h3 class="title">FoxToolz</h3>
+    </div>
+    <div class="headlinks">
+        <div class="headlinkparent">
+            <a class="headlink" target="_parent" href="../index.html"><i style="display: inline-block; vertical-align: top;" class="material-icons">home</i><h6 style="display: inline-block; padding-left: 5px;"> Home</h6></a>
+        </div>
+        <div class="headlinkparent">
+            <a class="headlink" target="_parent" href="../tools.html"><i style="display: inline-block; vertical-align: top;" class="material-icons">settings</i><h6 style="display: inline-block;padding-left: 5px;"> Tools</h6></a>
+        </div>
+        <div class="headlinkparent">
+            <a class="headlink" target="_parent" href="../tools/meme-generator.html"><img style="display: inline-block; vertical-align: top; width:25px" src="../img/tools/meme.png"><h6 style="display: inline-block;padding-left: 5px;"> Meme Generator</h6></a>
+        </div>
+        <div class="headlinkparent">
+            <a class="headlink" target="_parent" href="../tools/password-generator.html"><img style="display: inline-block; vertical-align: top; width:25px" src="../img/tools/pass.png"><h6 style="display: inline-block;padding-left: 5px;"> Password Generator</h6></a>
+        </div>
+        <div class="headlinkparent">
+            <a class="headlink" target="_parent" href="../tools/time.html"><img style="display: inline-block; vertical-align: top; width:25px" src="../img/tools/time.png"><h6 style="display: inline-block;padding-left: 5px;"> Time</h6></a>
+        </div>
+        <div class="headlinkparent">
+            <a class="headlink" target="_parent" href="../tools.html"><i style="display: inline-block; vertical-align: top;" class="material-icons">article</i><h6 style="display: inline-block;padding-left: 5px;"> Blog</h6></a>
+        </div>
+
+    </div>
+    <div class="navmenu" onclick="parent.opennav(), opennavhead()" style="position: absolute; top: 0px; right: 0px; cursor: pointer; padding: 12px;"><i style="color:white; user-select: none;" id="navicon" class="material-icons">menu</i></div>
+</body>
+</html>
+
